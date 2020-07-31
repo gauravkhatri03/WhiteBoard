@@ -1,5 +1,5 @@
 // connect to socket server
-const socket = io.connect("https://pepboard.herokuapp.com/");
+const socket = io.connect("https://whiteboardz.herokuapp.com");
 // *********************************Basic Setup
 const board = document.querySelector(".board");
 board.height = window.innerHeight;
